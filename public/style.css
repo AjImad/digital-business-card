@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+    background-color: #282D35;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    color: #fff;
+    padding: 20px 15px;
+}
+.nav-logo-text, .nav-title{
+    margin: 0;
+}
+.nav-logo-text{
+    margin-right: auto;
+    color: #61dafb;
+    padding-left: 5px;
+    font-size: 22px;
+}
+
+main{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./logo512.png');
+    background-repeat: no-repeat;
+    background-position: right 40%;
+    color: #fff;
+    padding: 57px 27px;
+}
+main > h2{
+    margin-bottom: 30px;
+    /* letter-spacing: 0.05em; */
+}
+main >ul >li{
+    line-height: 22px;
+    padding-block: 10px;
+    max-width: 400px;
+}
+
+main >ul >li::marker{
+    font-size: 1.5rem;
+    color: #61dafb;
+}
